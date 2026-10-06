@@ -1,0 +1,6 @@
+interface:
+  display_name: "Usage Handoff"
+  short_description: "Reserve usage and save a resumable handoff"
+  default_prompt: "Use $usage-handoff throughout this task; check remaining usage and save a handoff before the next action could exhaust it."
+policy:
+  allow_implicit_invocation: true
